@@ -2,7 +2,7 @@
 
 import './style.css';
 
-const Notification = () => {
+function Notification(){
 	return (
 		<>
 			<h4>There is no feedback</h4>

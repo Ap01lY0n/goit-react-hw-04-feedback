@@ -3,7 +3,7 @@
 import PropTypes from 'prop-types';
 import './style.css';
 
-const FeedbackOptions = ({ valueButtons, onLeaveFeedback }) => {
+function FeedbackOptions({ valueButtons, onLeaveFeedback }){
 	return (
 		<div className='buttons'>
 			{valueButtons.map(button => (
